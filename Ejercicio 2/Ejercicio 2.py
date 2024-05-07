@@ -2,7 +2,6 @@ import pyperclip,requests
 from bs4 import BeautifulSoup  
 
 url = None
-lista = []
 
 while True:
     aurl = pyperclip.paste()
@@ -12,8 +11,9 @@ while True:
             burl.raise_for_status()        
             soup = BeautifulSoup(burl.text, 'html.parser')
             p = soup.find_all('p')
-
-            lista.append(p)
-
+            
+            for i in range(len(p)):
+                p[i] = p[i].string
+                
             url = burl
             print(p)
