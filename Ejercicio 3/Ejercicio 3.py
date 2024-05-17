@@ -17,8 +17,12 @@ while True:
         web = requests.get(url)
         web.raise_for_status()
         if web.status_code == 200:
-            soup = BeautifulSoup(web.text, 'html.parser')
-            divs_with_links = soup.find_all('div', {'class': "sc-3c9f82-0 hLHwud"})
-            print(pag)
-
+            soup = BeautifulSoup(web.txt, 'html.parser')
+            divsLinks = soup.find_all('div', {'class': "sc-3c9f82-0 hLHwud"})
+            for div in divsLinks:
+                links = div.find_all('a')
+                for link in links:
+                    href = link.get('href')
+                    print(href)
+                    
 
