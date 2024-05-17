@@ -25,4 +25,3 @@ while True:
                     href = link.get('href')
                     print(href)
                     
-
