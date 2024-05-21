@@ -1,3 +1,0 @@
-entrar a mercado libre
-pedir por consola el producto
-retornar en un texto o pdf la info de productos
