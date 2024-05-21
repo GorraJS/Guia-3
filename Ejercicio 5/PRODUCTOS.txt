@@ -1,1 +1,25 @@
-Producto: Mouse inalámbrico Logitech  M170 M170 negro
+Producto: Motorola Moto E22 64GB Negro 4GB RAM
+Tienda: Envío gratis
+Precio: 216.999
+Clasificacion: 4.6
+
+Producto: Motorola Moto E13 64GB Blanco crema 2GB RAM
+Tienda: por Motorola
+Precio: 199.999
+Clasificacion: 4.5
+
+Producto: Motorola Moto G13 128 GB Rose gold 4 GB RAM
+Tienda: por Motorola
+Precio: 299.999
+Clasificacion: 4.7
+
+Producto: Motorola Moto G14 128 GB Beige 4 GB RAM
+Tienda: por Motorola
+Precio: 329.999
+Clasificacion: 4.6
+
+Producto:  Moto G84 5G 256 GB  celeste 8 GB RAM
+Tienda: por Motorola
+Precio: 549.999
+Clasificacion: 4.7
+
